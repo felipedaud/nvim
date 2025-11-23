@@ -1,3 +1,6 @@
+-- TEMA PARA O TERMINAL
+--
+-- 
 return {
   {
     "catppuccin/nvim",

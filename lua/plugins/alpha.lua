@@ -1,3 +1,6 @@
+-- DASHBOARD INICIAL DO NVIM
+--
+-- 
 return {
   "goolord/alpha-nvim",
   dependencies = {

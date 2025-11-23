@@ -1,3 +1,7 @@
+-- LINHA DE INFORMAÇÃO DO ARQUIVO NO FOOTER
+--
+--
+--
 return {
     'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' },
