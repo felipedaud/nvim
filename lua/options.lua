@@ -5,7 +5,7 @@ vim.opt.mouse = 'a'                 -- allow the mouse to be used in nvim
 vim.g.mapleader = " "
 vim.opt.fileformat = "unix"
 vim.opt.fileformats = { "unix", "dos" }
---vim.g.background = "light"
+vim.g.background = "light"
 
 
 -- Tab
@@ -20,8 +20,7 @@ vim.opt.relativenumber = true       -- add numbers to each line on the left side
 vim.opt.cursorline = false           -- highlight cursor line underneath the cursor horizontally
 vim.opt.splitbelow = false           -- open new vertical split bottom
 vim.opt.splitright = true           -- open new horizontal splits right
-vim.opt.termguicolors = true        -- enable 24-bit RGB color in the TUI
-vim.opt.showmode = true            -- we are experienced, wo don't need the "-- INSERT --" mode hint
+vim.opt.termguicolors = false        -- enable 24-bit RGB color in the TUI
 
 -- Searching
 vim.opt.incsearch = true            -- search as characters are entered

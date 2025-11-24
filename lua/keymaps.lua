@@ -12,9 +12,9 @@ local function close_current_buffer()
 end
 
 
-vim.keymap.set("n", "<Tab>", ":bnext<CR>")
-vim.keymap.set("n", "<S-Tab>", ":bprev<CR>")
-vim.keymap.set("n", "<leader>w", function() close_current_buffer() end)
+vim.keymap.set("n", "<Tab>", ":bnext<CR>", { desc = "Next buffer" })
+vim.keymap.set("n", "<S-Tab>", ":bprev<CR>", { desc = "Prev buffer" })
+vim.keymap.set("n", "<leader>w", function() close_current_buffer() end, { desc = "Close buffer" })
 
 
 
