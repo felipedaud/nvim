@@ -4,13 +4,6 @@ return {
         opts = {},
         config = function()
             require("mason").setup()
-
-            vim.api.nvim_create_autocmd("FileType", {
-                pattern = "mason",
-                callback = function()
-                    vim.cmd("MasonUpdate")
-                end,
-            })
         end
     }, 
     {
